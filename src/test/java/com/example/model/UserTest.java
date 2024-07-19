@@ -8,7 +8,7 @@ public class UserTest {
     public void testUserCreation() {
         User user = new User("1", "John Doe", "john.doe@example.com");
         assertEquals("1", user.getId());
-        assertEquals("Jane Doe", user.getName()); // Celowy błąd
+        assertEquals("John Doe", user.getName());
         assertEquals("john.doe@example.com", user.getEmail());
     }
 }
